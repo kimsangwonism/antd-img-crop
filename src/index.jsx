@@ -13,7 +13,7 @@ const MEDIA_CLASS = `${pkg}-media`;
 const MODAL_TITLE = 'Edit image';
 
 const MIN_ZOOM = 1;
-const MAX_ZOOM = 3;
+const MAX_ZOOM = 10;
 const ZOOM_STEP = 0.1;
 
 const MIN_ROTATE = 0;
