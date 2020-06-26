@@ -53,6 +53,7 @@ const EasyCrop = forwardRef((props, ref) => {
       zoomWithScroll={hasZoom}
       crop={crop}
       zoom={zoomVal}
+      maxZoom={MAX_ZOOM}
       rotation={rotateVal}
       onCropChange={setCrop}
       onZoomChange={setZoomVal}
